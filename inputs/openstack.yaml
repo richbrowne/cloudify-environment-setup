@@ -1,11 +1,11 @@
 username: -cut-
 keystone_password: -cut-
 tenant_name: -cut-
-auth_url: https://-cut-:5000/v2.0
+auth_url: http://10.190.54.11:5000/v2.0
 region: RegionOne
-external_network_name: GATEWAY_NET
-centos_core_image: c76d5b15-bf64-4402-bea6-9f4957ac0c6d
-ubuntu_trusty_image: e41430f7-9131-495b-927f-e7dc4b8994c8
-small_image_flavor: 2
-large_image_flavor: 4
+external_network_name: external_net
+centos_core_image: c32f9684-aed0-455f-ab25-76035a21be56
+ubuntu_trusty_image: 2daa2f3c-4623-4904-8906-d3ca342a264d
+small_image_flavor:  a153ac42-9985-4495-addf-33aeffffaede
+large_image_flavor: 2e4dab68-2da2-4985-8cad-1c2f25e961c1
 password: admin
